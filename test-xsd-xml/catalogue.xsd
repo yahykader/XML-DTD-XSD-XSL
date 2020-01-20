@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Sun Jan 19 22:07:16 CET 2020 -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+ 
+
+ <xsd:element name="catalogue">
+
+   <xsd:complexType>
+
+      <xsd:sequence>
+
+      	<xsd:element name="produit" type="typeProduit" minOccurs="1" maxOccurs="unbouned"></xsd:element>
+
+      </xsd:sequence>
+
+   </xsd:complexType>
+
+ </xsd:element>
+
+ <xsd:complexType name="typeProduit">
+
+  <xsd:attribute name="code" type="xsd:int" use="required"></xsd:attribute>
+
+  <xsd:attribute name="designation" type="xsd:string" use="required"></xsd:attribute>
+
+ </xsd:complexType>
+</xsd:schema>

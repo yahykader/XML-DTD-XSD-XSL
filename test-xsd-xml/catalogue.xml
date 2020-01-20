@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Sun Jan 19 22:22:27 CET 2020 -->
+
+
+<catalogue xsi:noNamespaceSchemaLocation="D:\TravauxTest\XML\test-xsd-xml\catalogue.xsd" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<produit code="123" designation="ORDINATEUR"/>
+	<produit code="147" designation="IMPRIMANTE"/>
+</catalogue>

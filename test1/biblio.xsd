@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="biblio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="etudiant"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="etudiant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="livre"/>
+      </xs:sequence>
+      <xs:attribute name="code" use="required"/>
+      <xs:attribute name="nom" use="required"/>
+      <xs:attribute name="prenom" use="required"/>
+      <xs:attribute name="age" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="livre">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="titre" use="required"/>
+      <xs:attribute name="datePret" use="required"/>
+      <xs:attribute name="rendu" default="non">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="oui"/>
+            <xs:enumeration value="non"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

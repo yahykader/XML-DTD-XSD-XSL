@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Jan 20 13:06:20 CET 2020 -->
+
+<?xml-stylesheet type="text/xsl" href="facture-xsl.xsl"?>
+<operateur xsi:noNamespaceSchemaLocation="D:\TravauxTest\XML\test-3-FACTURE\facture.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<client code="11" nom="ABDELKDER">
+		<abonnement numAb="111" dateAb="2019-10-10" typeAb="GMS">
+			<facture numFact="1111" dateFact="2019-11-11" montant="147" regle="OUI"/>
+            <facture numFact="1112" dateFact="2019-11-11" montant="148" regle="OUI"/>
+            <facture numFact="1113" dateFact="2019-11-11" montant="149" regle="OUI"/>
+		</abonnement>
+		<abonnement numAb="133" dateAb="2019-10-10" typeAb="FIXE">
+			<facture numFact="1111" dateFact="2019-11-11" montant="147" regle="OUI"/>
+            <facture numFact="1112" dateFact="2019-11-11" montant="148" regle="OUI"/>
+            <facture numFact="1113" dateFact="2019-11-11" montant="149" regle="NON"/>
+		</abonnement>
+	</client>
+	<client code="12" nom="YACINE">
+		<abonnement numAb="555" dateAb="2019-10-10" typeAb="FIXE">
+			<facture numFact="1111" dateFact="2018-11-11" montant="147" regle="OUI"/>
+            <facture numFact="1112" dateFact="2018-11-11" montant="148" regle="NON"/>
+            <facture numFact="1113" dateFact="2018-11-11" montant="149" regle="OUI"/>
+		</abonnement>
+		<abonnement numAb="666" dateAb="2019-10-10" typeAb="GMS">
+			<facture numFact="1111" dateFact="2018-11-11" montant="147" regle="OUI"/>
+            <facture numFact="1112" dateFact="2018-11-11" montant="148" regle="NON"/>
+            <facture numFact="1113" dateFact="2018-11-11" montant="149" regle="OUI"/>
+		</abonnement>
+	</client>
+</operateur>

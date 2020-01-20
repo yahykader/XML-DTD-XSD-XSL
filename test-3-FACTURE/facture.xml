@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Jan 20 11:47:13 CET 2020 -->
+<!DOCTYPE operateur SYSTEM "D:\TravauxTest\XML\test-3-FACTURE\facture.dtd">
+<?xml-stylesheet type="text/xsl" href="facture.xsl"?>
+<operateur>
+	<client code="10" nom="ABDELKADER">
+		<abonnement num="11" dateAb="2019-10-10" type="FIXE">
+			<facture numFacture="22" dateFacture="2020-01-01" montant="120 EURO" regle="oui"/>
+			<facture numFacture="23" dateFacture="2019-10-12" montant="56 EURO" regle="oui"/>
+			<facture numFacture="24" dateFacture="2018-14-10" montant="147 EURO" regle="oui"/>
+		</abonnement>
+		<abonnement num="14" dateAb="2018-10-10" type="GMS">
+		    <facture numFacture="44" dateFacture="2016-01-01" montant="120 EURO" regle="oui"/>
+			<facture numFacture="45" dateFacture="2017-01-01" montant="100 EURO" regle="oui"/>
+		</abonnement>
+	</client>
+	<client code="11" nom="YACINE">
+		<abonnement num="12" dateAb="2019-10-25" type="FIXE">
+			<facture numFacture="46" dateFacture="2019-02-02" montant="147 EURO"/>	
+			<facture numFacture="47" dateFacture="2019-03-03" montant="148 EURO"/>	
+		</abonnement>	
+	</client>
+</operateur>

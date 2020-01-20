@@ -1,0 +1,21 @@
+<!-- DTD created at Mon Jan 20 11:37:29 CET 2020 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  operateur (client +)>
+<!ELEMENT client (abonnement +)>
+<!ELEMENT abonnement(facture +)>
+<!ELEMENT facture  EMPTY>
+<!ATTLIST client  
+               code CDATA #REQUIRED
+               nom CDATA #REQUIRED>
+<!ATTLIST abonnement 
+			   num ID #REQUIRED
+			   type (GMS|FIXE) 'FIXE'
+			   dateAb CDATA #REQUIRED>
+			   
+<!ATTLIST facture 
+               numFacture CDATA #REQUIRED
+               dateFacture CDATA  #REQUIRED
+               montant CDATA #REQUIRED
+               regle (oui|non) 'non' #REQUIRED>			   
+			                  
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Jan 20 11:06:59 CET 2020 -->
+
+<biblio xsi:noNamespaceSchemaLocation="D:\TravauxTest\XML\test2\biblio.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<etudiant code="12" nom="YAHYAOUI" prenom="ABDELKADER" age="33" email="ABDELKADER.T2T2@YAHOO.FR">
+		<livre id="1" titre="XXXXXX" date="2020-01-01" email="ABDELKADER.T2T2@YAHOO.FR" rendu="NON"/>
+		<livre id="2" titre="yyyy" date="2020-00-20-12:00" email="yahyaoui.t2t2@yahoo.fr" rendu="OUI"/>
+	</etudiant>
+		<etudiant code="10" nom="YAHYAOUI" prenom="ABDELKADER" age="33" email="ABDELKADER.T2T2@YAHOO.FR">
+		<livre id="11" titre="XXXXXX" date="2020-01-01" email="ABDELKADER.T2T2@YAHOO.FR" rendu="OUI"/>
+		<livre id="22" titre="yyyy" date="2020-00-20-12:00" email="yahyaoui.t2t2@yahoo.fr" rendu="OUI"/>
+	</etudiant>
+</biblio>

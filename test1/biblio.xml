@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblio SYSTEM "D:\TravauxTest\XML\biblio.dtd">
+<?xml-stylesheet type="text/xsl" href="biblio.xsl"?>
+<biblio>
+	<etudiant code="E1" nom="YAHYAOUI" prenom="ABDELKADER" age="34">
+		<livre id="L1" titre="XML" datePret="2018-10-10"  rendu="oui"/>
+		<livre id="L2" titre="java" datePret="2019-10-10" rendu="non"/>
+	</etudiant>
+	<etudiant code="E5" nom="YAHYAOUI" prenom="YACINE" age="34">
+		<livre id="L5" titre="XML" datePret="2018-10-10"  rendu="oui"/>
+		<livre id="L6" titre="java" datePret="2019-10-10" rendu="non"/>
+	</etudiant>
+</biblio>
